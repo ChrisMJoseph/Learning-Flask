@@ -34,12 +34,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basic_Project\" />
-    <Folder Include="Basic_Project\HelloFlask\" />
     <Folder Include="Basic_Project\static\" />
     <Folder Include="Basic_Project\static\content\" />
     <Folder Include="Basic_Project\static\fonts\" />
     <Folder Include="Basic_Project\static\scripts\" />
     <Folder Include="Basic_Project\templates\" />
+    <Folder Include="HelloFlask\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
