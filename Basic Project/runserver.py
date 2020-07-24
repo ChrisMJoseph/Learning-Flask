@@ -2,13 +2,13 @@
 This script runs the Basic_Project application using a development server.
 """
 
-from os import environ
-from Basic_Project import app
+import os
+from HelloFlask import app  # Imports the code from HelloFlask/__init__.py
 
 if __name__ == '__main__':
-    HOST = environ.get('SERVER_HOST', 'localhost')
+    HOST = os.environ.get('SERVER_HOST', 'localhost')
     try:
-        PORT = int(environ.get('SERVER_PORT', '5555'))
+        PORT = int(os.environ.get('SERVER_PORT', '5555'))
     except ValueError:
         PORT = 5555
     app.run(HOST, PORT)

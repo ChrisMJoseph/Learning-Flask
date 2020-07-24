@@ -34,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basic_Project\" />
+    <Folder Include="Basic_Project\HelloFlask\" />
     <Folder Include="Basic_Project\static\" />
     <Folder Include="Basic_Project\static\content\" />
     <Folder Include="Basic_Project\static\fonts\" />
