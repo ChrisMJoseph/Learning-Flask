@@ -35,10 +35,42 @@ def contact():
 
 @app.route('/about')
 def about():
-    """Renders the about page."""
     return render_template(
-        'about.html',
-        title='About',
-        year=datetime.now().year,
-        message='Your application description page.'
-    )
+        "about.html",
+        title = "About HelloFlask",
+        content = "Example app page for Flask.")
+
+from flask import Flask
+import sqlite3
+
+
+import sqlite3
+
+app = Flask(__name__)
+
+@app.route("/")
+def main():
+    message = ""
+    try:
+        db = sqlite3.connect('test.db') #creates if not exists already
+        cursor = db.cursor()
+        cursor.execute("CREATE TABLE users(id INTEGER PRIMARY KEY, email TEXT);")
+        cursor.execute("INSERT INTO users (id,email) values (?, ?)",(99, "me@my.com"))
+        db.commit()
+        message = "Database was created, and some records were inserted."
+    except Exception:
+        db.rollback()
+        message = "Something went wrong."
+    finally:
+        db.close()
+        return message
+    
+app.run()
+   
+@app.route('/sqlite')
+def sqlite():
+    return render_template(
+        "slite.html",
+        title = "sqlite HelloFlask",
+        content = "Example app page for Flask.")
+
