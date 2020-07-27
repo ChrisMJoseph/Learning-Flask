@@ -29,46 +29,46 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="runserver.py" />
-    <Compile Include="Basic_Project\__init__.py" />
-    <Compile Include="Basic_Project\views.py" />
+    <Compile Include="HelloFlask\__init__.py" />
+    <Compile Include="HelloFlask\views.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Basic_Project\" />
-    <Folder Include="Basic_Project\static\" />
-    <Folder Include="Basic_Project\static\content\" />
-    <Folder Include="Basic_Project\static\fonts\" />
-    <Folder Include="Basic_Project\static\scripts\" />
-    <Folder Include="Basic_Project\templates\" />
     <Folder Include="HelloFlask\" />
+    <Folder Include="HelloFlask\static\" />
+    <Folder Include="HelloFlask\static\content\" />
+    <Folder Include="HelloFlask\static\fonts\" />
+    <Folder Include="HelloFlask\static\scripts\" />
+    <Folder Include="HelloFlask\templates\" />
+    <Folder Include="HelloFlask1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
-    <Content Include="Basic_Project\static\content\bootstrap.css" />
-    <Content Include="Basic_Project\static\content\bootstrap.min.css" />
-    <Content Include="Basic_Project\static\content\site.css" />
-    <Content Include="Basic_Project\static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Basic_Project\static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Basic_Project\static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Basic_Project\static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Basic_Project\static\scripts\bootstrap.js" />
-    <Content Include="Basic_Project\static\scripts\bootstrap.min.js" />
-    <Content Include="Basic_Project\static\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Basic_Project\static\scripts\jquery-1.10.2.js" />
-    <Content Include="Basic_Project\static\scripts\jquery-1.10.2.min.js" />
-    <Content Include="Basic_Project\static\scripts\jquery-1.10.2.min.map" />
-    <Content Include="Basic_Project\static\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Basic_Project\static\scripts\jquery.validate.js" />
-    <Content Include="Basic_Project\static\scripts\jquery.validate.min.js" />
-    <Content Include="Basic_Project\static\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Basic_Project\static\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Basic_Project\static\scripts\modernizr-2.6.2.js" />
-    <Content Include="Basic_Project\static\scripts\respond.js" />
-    <Content Include="Basic_Project\static\scripts\respond.min.js" />
-    <Content Include="Basic_Project\static\scripts\_references.js" />
-    <Content Include="Basic_Project\templates\about.html" />
-    <Content Include="Basic_Project\templates\contact.html" />
-    <Content Include="Basic_Project\templates\index.html" />
-    <Content Include="Basic_Project\templates\layout.html" />
+    <Content Include="HelloFlask\static\content\bootstrap.css" />
+    <Content Include="HelloFlask\static\content\bootstrap.min.css" />
+    <Content Include="HelloFlask\static\content\site.css" />
+    <Content Include="HelloFlask\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="HelloFlask\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="HelloFlask\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="HelloFlask\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="HelloFlask\static\scripts\bootstrap.js" />
+    <Content Include="HelloFlask\static\scripts\bootstrap.min.js" />
+    <Content Include="HelloFlask\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="HelloFlask\static\scripts\jquery-1.10.2.js" />
+    <Content Include="HelloFlask\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="HelloFlask\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="HelloFlask\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="HelloFlask\static\scripts\jquery.validate.js" />
+    <Content Include="HelloFlask\static\scripts\jquery.validate.min.js" />
+    <Content Include="HelloFlask\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="HelloFlask\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="HelloFlask\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="HelloFlask\static\scripts\respond.js" />
+    <Content Include="HelloFlask\static\scripts\respond.min.js" />
+    <Content Include="HelloFlask\static\scripts\_references.js" />
+    <Content Include="HelloFlask\templates\about.html" />
+    <Content Include="HelloFlask\templates\contact.html" />
+    <Content Include="HelloFlask\templates\index.html" />
+    <Content Include="HelloFlask\templates\layout.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
